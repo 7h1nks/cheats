@@ -1,0 +1,69 @@
+@font-face {
+    font-family: mainFont;
+    src: url(font.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0e0e0e;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: mainFont;
+    color: white;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(216, 185, 44);
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(44, 216, 110);
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.button {
+    font-family: mainFont;
+    background-color: #af4c7a; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.download {
+    background-color: rgb(10, 10, 10);
+    color: rgb(190, 49, 49);
+    border: 2px solid #555555;
+}
+  
+.download:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    padding-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-wrap: break-word;
+    width: 25%;
+    color: white;
+    font-weight: 800;
+}
